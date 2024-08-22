@@ -52,9 +52,5 @@ button4 = Button(root,text="Ask Yes Or No Box",command=lambda:clickOnButton("yes
 button4.pack()
 button5 = Button(root,text="Ask Ok Cancel Box",command=lambda:clickOnButton("cancel"))
 button5.pack()
-
-ronak = lambda a : a+10
-print(ronak(10))
-
 root.mainloop()
 

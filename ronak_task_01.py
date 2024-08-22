@@ -11,7 +11,7 @@ ractangle = c.create_rectangle((20, 150, 120, 50), fill="pink")
 ractangle2 = c.create_rectangle((150, 150, 250, 50), fill="blue")
 line2 = c.create_line((500, 200, 0, 200), fill="yellow", width=20)
 
-btn = Button(root, text='Welcome to Tkinter!', width=20, height=2, bd='10', command=root.destroy)
+btn = Button(c, text='Welcome to Tkinter!', width=20, height=2, bd='10', command=root.destroy)
 
 btn.place(x=100, y=350)
 
