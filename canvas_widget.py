@@ -18,3 +18,4 @@ canvasImage = c.create_image((250,250),image=image,anchor = CENTER)
 c.pack()
 
 root.mainloop()
+
