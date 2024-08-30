@@ -31,3 +31,4 @@ for i in randomUser['results']:
   print(i['location']['city'],i['location']['state'],i['location']['country'])
   print(i['location']['postcode'])
   print()
+
