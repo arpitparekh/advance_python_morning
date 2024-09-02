@@ -22,6 +22,7 @@ dic = {
 # insert data into collection
 # col.insert_one(dic)
 
+# display data
 data =  col.find()
 for i in data:
     print(i)
